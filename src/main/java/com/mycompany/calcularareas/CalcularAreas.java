@@ -17,4 +17,8 @@ public class CalcularAreas {
     public static int quadrat(int costat){
         return costat*costat;
     }
+    
+    public static int rectangle(int costatGran, int costatPetit) {
+        return costatGran * costatPetit;
+    }
 }
